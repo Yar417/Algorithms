@@ -2,7 +2,7 @@ import openai
 import pandas as pd
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "_____"
 # Read the input CSV file
 filename = "reviews.csv"
 df = pd.read_csv(filename, delimiter=";")
